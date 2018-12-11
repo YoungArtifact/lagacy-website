@@ -1,0 +1,106 @@
+      * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(rgba(69, 0, 69, 1), rgba(42, 0, 42, .9), rgba(69, 0, 42, .8));
+    height: auto;
+}
+
+.headline {
+    font-family: "SourceCodePro", sans-serif;
+    text-transform: uppercase;
+    font-weight: lighter;
+    color: dimgray;
+    text-align: center;
+    top: 1em;
+    font-size: 4rem;
+    padding: 0.5em;
+}
+
+.headline:after {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 0;
+    background: transparent;
+    transition: width .2s ease, background-color .5s ease;
+}
+
+.headline:hover:after {
+    width: 100%;
+    background: dimgray;
+}
+
+.moep{
+    margin:  1.5em;
+}
+
+.bottom span {
+    color: dimgray;
+}
+
+.button {
+    display: inline-block;
+    font-size: 1.5em;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-width: 2px;
+    border-style: solid;
+    padding: 0.3em 3em;
+    margin: 1em auto 0.5em;
+    margin-bottom: 0.1em;
+    color: dimgray;
+}
+
+.button-primary {
+    color: dimgray;
+    transition: all 500ms;
+}
+
+.button-primary:hover, .buttone-primary:focus {
+    color: darkgray;
+}
+
+.hero {
+    text-align: center
+}
+
+.subtitle {
+    display: block;
+    font-size: 0.8rem;
+    text-decoration: none;
+}
+
+a {
+    color: dimgray;
+    text-decoration: none;
+}
+
+p {
+    color: dimgray;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+input {
+    width: 200px;
+    background-color: transparent;
+    border-color: lightgray;
+}
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top-color: dimgray;
+    border-top-style: solid;
+    border-top-width: 2px;
+    margin: 2em;
+    margin-bottom: 0.5em;
+    margin-right: auto;
+    margin-left: auto;
+    width: 45em;
+    opacity: 0.8;
+}
