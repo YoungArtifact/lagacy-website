@@ -38,6 +38,18 @@ body {
     margin:  1.5em;
 }
 
+.wishlist{
+    background-image: url(images/mountainsBg.png);
+    background-position: fixed;
+    background-repeat: no-repeat round;
+    background-size: 100%;
+}
+
+.wishlist_item{
+    border: 7px;
+    border-style: solid;
+}
+
 .bottom span {
     color: dimgray;
 }
@@ -50,9 +62,9 @@ body {
     border-width: 2px;
     border-style: solid;
     padding: 0.3em 3em;
-    margin: 1em auto 0.5em;
-    margin-bottom: 0.1em;
+    margin: 0.3em 0.2em 0.5em ;
     color: dimgray;
+    max-width: 1000%;
 }
 
 .button-primary {
@@ -60,12 +72,12 @@ body {
     transition: all 500ms;
 }
 
-.button-primary:hover, .buttone-primary:focus {
+.button-primary:hover, .button-primary:focus {
     color: darkgray;
 }
 
 .hero {
-    text-align: center
+    text-align: center;
 }
 
 .subtitle {
@@ -83,6 +95,7 @@ p {
     color: dimgray;
     text-decoration: none;
     font-size: 18px;
+    margin-bottom: 0.2em;
 }
 
 input {
@@ -101,6 +114,6 @@ hr {
     margin-bottom: 0.5em;
     margin-right: auto;
     margin-left: auto;
-    width: 45em;
+    width: 80%;
     opacity: 0.8;
 }
