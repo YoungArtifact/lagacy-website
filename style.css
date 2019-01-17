@@ -10,7 +10,7 @@ body {
 }
 
 .headline {
-    font-family: "SourceCodePro", sans-serif;
+    font-family: sans-serif;
     text-transform: uppercase;
     font-weight: lighter;
     color: dimgray;
