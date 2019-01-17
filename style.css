@@ -89,6 +89,10 @@ body {
     text-decoration: none;
 }
 
+.bottom {
+    text-align: center;
+}
+
 a {
     color: dimgray;
     text-decoration: none;
